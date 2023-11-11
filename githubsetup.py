@@ -62,3 +62,6 @@ subprocess.run(["git", "add", "*"])
 subprocess.run(["git", "commit", "-m", "Initial commit"])
 subprocess.run(["git", "push", "origin", "HEAD"])
 
+# Git Push remote setup 
+git remote set-url origin https://<your-username>:<your-token>@github.com/<your-username>/<your-repository>.git
+
