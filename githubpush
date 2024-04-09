@@ -1,0 +1,12 @@
+GIT HUB CODE PUSH
+
+#This is a how to for how to push your code to Git Hub once your repo is already cloned to Kali#
+
+# Add all Curent chages in Repo#
+	git add .
+	git commit -m "comment reason"
+	git push origin "Branch"
+
+# Add selected file 
+	git add "file name" (add path is not in repo)
+	
